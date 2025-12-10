@@ -1,3 +1,4 @@
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Swiper from "./components/swiper";
 import TopBar from "./components/topBar";
@@ -8,6 +9,7 @@ function App() {
       <TopBar />
       <Header />
       <Swiper />
+      <Footer />
     </div>
   );
 }
