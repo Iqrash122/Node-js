@@ -1,8 +1,12 @@
+import Header from "./components/header";
 import TopBar from "./components/topBar";
 
 function App() {
   return (
-    <TopBar />
+    <div >
+      <TopBar />
+      <Header />
+    </div>
   );
 }
 
