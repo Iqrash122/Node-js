@@ -11,7 +11,7 @@ export default function Header() {
         <ul className="flex items-center gap-8 text-[#151875] font-medium">
           <li className="hover:text-[#FB2E86] transition cursor-pointer relative group">
             Home
-            <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#FB2E86] group-hover:w-full transition-all duration-300"></span>
+            <span className="absolute left-0 -bottom-1 w-0 bg-[#FB2E86] group-hover:w-full transition-all duration-300"></span>
           </li>
 
           <li className="hover:text-[#FB2E86] transition cursor-pointer">

@@ -3,7 +3,8 @@ import { FiMail } from "react-icons/fi";
 import { BiPhoneCall } from "react-icons/bi";
 import { LuUserRound } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa";
-import { BsCart } from "react-icons/bs";
+import { PiShoppingCartBold } from "react-icons/pi";
+
 
 export default function TopBar() {
     return (
@@ -39,7 +40,7 @@ export default function TopBar() {
                         <FaRegHeart />
                     </div>
                     <div className="flex items-center cursor-pointer">
-                        <BsCart />
+                        <PiShoppingCartBold />
                     </div>
                 </div>
             </div>
