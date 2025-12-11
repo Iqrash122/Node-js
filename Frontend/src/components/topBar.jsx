@@ -20,7 +20,7 @@ export default function TopBar() {
                         <p className="font-normal text-[15px] hover:text-[#FB2E86]">+92 3068518898</p>
                     </div>
                 </div>
-                <div className="right flex gap-4">
+                <div className="right flex gap-5">
                     <select name="lang" id="" className="font-normal text-[15px] bg-[#7e33e0] outline-none cursor-pointer">
                         <option value="english">English</option>
                         <option value="urdu">Urdu</option>
@@ -39,7 +39,8 @@ export default function TopBar() {
                         <p className="font-normal text-[15px]">Wishlist</p>
                         <FaRegHeart />
                     </div>
-                    <div className="flex items-center cursor-pointer">
+                    <div className="flex flex-row gap-1 items-center cursor-pointer">
+                        <p className="font-normal text-[15px]">Cart</p>
                         <PiShoppingCartBold />
                     </div>
                 </div>
