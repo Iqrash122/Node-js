@@ -1,6 +1,6 @@
 export default function Card() {
     return (
-        <div className="max-w-sm mx-auto bg-white shadow-xl rounded-md border-2 border-transparent overflow-hidden hover:border-red-300 group transition-all duration-300">
+        <div className="max-w-sm mx-auto bg-white shadow-xl rounded-md border-2 border-transparent overflow-hidden hover:border-red-500 group transition-all duration-300">
             <div className=" mx-4 mt-4 rounded-sm relative p-4 pt-10">
                 <div className="absolute top-2 right-4 flex items-center gap-2">
                     <span className="border-2 border-red-500 text-red-500 font-bold text-xs px-2 py-1">
