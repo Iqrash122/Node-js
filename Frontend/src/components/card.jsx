@@ -1,6 +1,6 @@
 export default function Card() {
     return (
-        <div className="max-w-sm mx-auto bg-white shadow-xl rounded-md border border-gray-200 overflow-hidden hover:border-red-300">
+        <div className="max-w-sm mx-auto bg-white shadow-xl rounded-md border-2 border-transparent overflow-hidden hover:border-red-300 group transition-all duration-300">
             <div className=" mx-4 mt-4 rounded-sm relative p-4 pt-10">
                 <div className="absolute top-2 right-4 flex items-center gap-2">
                     <span className="border-2 border-red-500 text-red-500 font-bold text-xs px-2 py-1">
@@ -12,7 +12,7 @@ export default function Card() {
                 </div>
 
                 <img
-                    src="/assets/laptop.png"
+                    src="/assets/chair.svg"
                     alt="product"
                     className="w-full h-auto object-contain mb-4"
                 />
@@ -45,8 +45,15 @@ export default function Card() {
                 </div>
             </div>
 
-            <div className="bg-[#0D0E43] p-4 flex justify-center">
-                <button className="bg-red-500 hover:bg-red-600 text-white px-8 py-2 rounded-full font-semibold transition-all duration-200 active:scale-95">
+            <div
+                className="
+          bg-[#0D0E43] p-4 flex justify-center
+          opacity-0 translate-y-4
+          group-hover:opacity-100 group-hover:translate-y-0
+          transition-all duration-300
+        "
+            >
+                <button className="bg-red-500 hover:bg-red-600 text-white px-8 py-2 rounded-full font-semibold transition-all active:scale-95">
                     ADD TO CART
                 </button>
             </div>
